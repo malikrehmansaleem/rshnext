@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+ /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}  */
+body {
+  padding: 0px;
+  margin: 0px;
 }
+header {
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  height: 650px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+table, th, td {
+  border:1px solid black;
+}
+    

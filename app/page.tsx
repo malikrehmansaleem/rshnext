@@ -2,112 +2,208 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+    <>
+  <header>
+    <div
+      style={{
+        textAlign: "center",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        justifyContent: "center",
+        padding: "150px 20px",
+        color: "white"
+      }}
+    >
+      <div style={{ fontSize: 75, fontWeight: "bold" }}>
+        Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
+        Karachi, Lahore, Islamabad, and Peshawar
+      </div>
+      <div style={{ fontSize: 25 }}>
+        Getting Ready for the Next Generation and Future of the Internet - Join
+        a 13 Trillion Dollar Industry with 5 Billion Users
+      </div>
+    </div>
+    {/* <div style="text-align:center;display:flex;align-items:center;flex-direction:column;justify-content:center;padding:0px 0px;color:white"></div> */}
+    {/* <h1><b>Certified Web 3.0 and Metaverse Developer:<br />
+          A Nationwide Program in Karachi, Lahore,<br />
+          Islamabad, and Peshawar</b></h1>
+  <h2>Getting Ready for the Next Generation and Future of the Internet - Join a 13 Trillion Dollar Industry with 5
+      Billion Users</h2> */}
+  </header>
+  <center>
+    <h3>
+      Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
+      Karachi, Lahore, Islamabad, and Peshawar
+    </h3>
+    <img
+      src="./images/pnsverse.png"
+      alt="Panaverse DAO Logo"
+      width={450}
+      height={250}
+      title="PANAVERSE LOGO"
+    />
+    <br />
+    <br />
+    <iframe
+      width={441}
+      height={245}
+      src="https://www.youtube.com/embed/zXiNtyJcwuM"
+      title="78 Chapter 5 - Images"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    />
+    <h3>
+      The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse
+      DAO is a movement to spread these technolgies globally. It is community of
+      Web 3 and Metaverse developers, designers, trainers, startup founders and
+      service providers.
+    </h3>
+    <br />
+    <a href="https://www.piaic.org/">
+      Admissions Now Open in Karachi, Lahore, Islamabad, and Peshawar
+    </a>
+    <h3>The Program in a Nutshell: Earn While You Learn</h3>
+    <p>
+      In this brand-new type of curriculum, students will learn how to make
+      money and boost exports in the classroom and will begin doing so within
+      six months of the program’s beginning. It resembles a cross between a
+      corporate venture and an educational project.
+    </p>
+    <h3>Program of Studies</h3>
+    <p>
+      This curriculum is intended for beginners who want to learn software
+      development from the ground up. The first two quarters are shared by all
+      specialities and are dedicated to studying Object-Oriented Programming and
+      cutting-edge Full-Stack Web 2.0 development. It is going to be a year-long
+      hybrid programme that includes both onsite and online classes and is
+      divided into four quarters of 13 weeks each. The emphasis will be on
+      hands-on learning by educating students to produce projects. To
+      accommodate everyone, courses will be held primarily on weekends or after
+      6:00 p.m. (Pakistan Time) on weekdays. It employs a hybrid teaching
+      format, with core onsite classes complemented by online Zoom laboratories
+      and recorded videos.
+    </p>
+    <h3>Web 3.0 (Blockchain) and Metaverse Specialization</h3>
+    <p>
+      This Web 3.0 and Metaverse specialization focuses on developing full-stack
+      Web 3.0 and Metaverse experiences for the next generation of the internet
+      by specializing in building worlds that merge the best of cutting-edge
+      decentralized distributed blockchains with 3D metaverse client
+      experiences.
+    </p>
+    <h3>Artificial Intelligence (AI) and Deep Learning Specialization</h3>
+    <p>
+      The AI and Deep Learning specialization focuses on building and deploying
+      intelligent APIs using OpenAI models and building custom Deep Learning
+      Tensorflow models.
+    </p>
+    <h3>Cloud-Native Computing Specialization</h3>
+    <p>
+      The Cloud-Native Computing Specialization focuses on Containers,
+      Kubernetes, and CDK for Kubernetes.
+    </p>
+    <h3>Ambient Computing and IoT Specialization</h3>
+    <p>
+      The Ambient Computing and IoT Specialization focuses on building Smart
+      Homes, Offices, Factories, and Cities using Voice computing, Matter and
+      Embedded Devices.
+    </p>
+    <h3>Quaters 3 Results</h3>
+    <table width="500">
+      <tbody>
+        <tr>
+          <th colSpan={5}>Students PASS/FAIL</th>
+        </tr>
+        <tr>
+          <th>programs</th>
+          <th>Pass</th>
+          <th>Fail</th>
+          <th>%Passed</th>
+          <th>%Failed</th>
+        </tr>
+        <tr>
+          <th>Artificial Intelligence</th>
+          <td>518</td>
+          <td>148</td>
+          <td>77.78%</td>
+          <td>22.22%</td>
+        </tr>
+        <tr>
+          <th>Cloud Native</th>
+          <td>270</td>
+          <td>85</td>
+          <td>76.06%</td>
+          <td>23.94%</td>
+        </tr>
+        <tr>
+          <th>IOT</th>
+          <td>78</td>
+          <td>25</td>
+          <td>75.73%</td>
+          <td>24.27</td>
+        </tr>
+        <tr>
+          <th>total</th>
+          <td>866</td>
+          <td>258</td>
+          <td>77.05%</td>
+          <td>22.95%</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+    <iframe
+      width={540}
+      height={480}
+      src="https://www.youtube.com/embed/PuXITX7Nt6k?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6"
+      title="102 Chapter 6 - Tables in Practice"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    />
+    <form>
+        <fieldset>
+          <legend>Personal details </legend>
+          <p>
+            First Name
+            <input type="text" name="firstname"  />
+            <br />
+            
+            Last Name
+            <input type="text" name="lastname"   />
+          </p>
+          <p>
+            Gender:
+            <input id="male" type="radio" name="gender"  />
+            Male
+            <label >Male</label>
+            <label>
+              <input type="radio" name="gender"  />
+              Female
+            </label></p>
+          <p>
+            Nationality:
+            <select name="countaries">
+              <option value="Pakistan">Pakistan</option>
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="USE">UAE</option>
+            </select>
+          </p>
+        </fieldset>
+        <p>
+          Password
+          <input type="password" />
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+        <p>
+          Re-Password
+          <input type="password" name="password"  />
+        </p>
+        </form>
+   
+  </center>
+</>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    
   )
 }
